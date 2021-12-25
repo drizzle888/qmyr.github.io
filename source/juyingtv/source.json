@@ -1,0 +1,878 @@
+{
+  "homeNote":"近期360影视搜索接口不稳定,可能出现搜索不了的问题,可以尝试切换WIFI和移动网络环境",
+  "homeQQGroup": "https://qmyr.coding.net/p/JuYing/d/JuYing/git/raw/master/TV/Source/fenxi.png",
+  "vodApi": [
+    {
+      "id": 1,
+      "name": "糖果资源",
+      "api": "http://vip-01.tgzy.cc/api.php/provide/vod/at/xml",
+      "click": true,
+      "searchFilter": false
+    },
+    {
+      "id": 2,
+      "name": "M3U8资源",
+      "api": "http://www.zycaiji.net:7788/api.php/provide/vod/at/xml",
+      "click": true,
+      "searchFilter": false
+    },
+    {
+      "id": 3,
+      "name": "麒麟资源",
+      "api": "http://www.qilinzyz.com/api.php/provide/vod/at/xml",
+      "click": true,
+      "searchFilter": false
+    },
+    {
+      "id": 4,
+      "name": "8090资源",
+      "api": "http://zy.yilans.net:8090/api.php/provide/vod/at/xml",
+      "click": true,
+      "searchFilter": false
+    },
+    {
+      "id": 5,
+      "name": "优酷视频",
+      "api": "http://www.zycaiji.net:7788/api.php/provide/vod/from/youku/at/xml",
+      "click": true,
+      "searchFilter": false
+    },
+    {
+      "id": 6,
+      "name": "腾讯视频",
+      "api": "http://www.zycaiji.net:7788/api.php/provide/vod/from/qq/at/xml",
+      "click": true,
+      "searchFilter": false
+    },
+    {
+      "id": 7,
+      "name": "爱奇艺视频",
+      "api": "http://www.zycaiji.net:7788/api.php/provide/vod/from/qiyi/at/xml",
+      "click": true,
+      "searchFilter": false
+    },
+    {
+      "id": 8,
+      "name": "芒果TV",
+      "api": "http://www.zycaiji.net:7788/api.php/provide/vod/from/mgtv/at/xml",
+      "click": true,
+      "searchFilter": false
+    },
+    {
+      "id": 9,
+      "name": "555资源",
+      "api": "http://w7tv.com/api.php/provide/vod/at/xml",
+      "click": true,
+      "searchFilter": false
+    },
+    {
+      "id": 10,
+      "name": "侦探资源",
+      "api": "http://ys.huangguay.com/api.php/provide/vod/at/xml",
+      "click": true,
+      "searchFilter": false
+    },
+    {
+      "id": 11,
+      "name": "天堂资源",
+      "api": "http://vipmv.cc/api.php/provide/vod/at/xml",
+      "click": true,
+      "searchFilter": false
+    },
+    {
+      "id": 12,
+      "name": "暴风资源",
+      "api": "https://www.bofangya.com/api.php/provide/vod/at/xml",
+      "click": true,
+      "searchFilter": false
+    }
+  ],
+  "live": [
+        {
+      "channelNum": 1,
+      "channelName": "庆余年",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1423787860-1423787860-6115122295141826560-2847699176-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11352960"
+      ]
+    },
+    {
+      "channelNum": 2,
+      "channelName": "武林外传",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1099531752781-1099531752781-86436238306836480-2199063629018-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=21059589"
+      ]
+    },
+    {
+      "channelNum": 3,
+      "channelName": "情满四合院",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1394575549-1394575549-5989656374756245504-2789274554-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11342426"
+      ]
+    },
+    {
+      "channelNum": 4,
+      "channelName": "少年包青天",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1394565200-1394565200-5989611926139699200-2789253856-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11342393"
+      ]
+    },
+    {
+      "channelNum": 5,
+      "channelName": "炊事班的故事",
+      "channelUrls": [
+        "http://103.140.229.13/BOBO/bibi.php?id=21354981",
+        "http://103.140.229.13/BOBO/bibi.php?id=14457148",
+        "http://121.51.249.99/tx.hls.huya.com/src/1524418108-1524418108-6547325919290195968-3048959672-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=19524135"
+      ]
+    },
+    {
+      "channelNum": 6,
+      "channelName": "封神榜",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1199561158071-1199561158071-5434346901866545152-2399122439598-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=23749096"
+      ]
+    },
+    {
+      "channelNum": 7,
+      "channelName": "陈翔六点半",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1352054947-1352054947-5807031779760013312-2704233350-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11274154"
+      ]
+    },
+    {
+      "channelNum": 8,
+      "channelName": "虎牙八点档",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1524439855-1524439855-6547419321943982080-3049003166-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=880261"
+      ]
+    },
+    {
+      "channelNum": 9,
+      "channelName": "历年贺岁片",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1524418118-1524418118-6547325962239868928-3048959692-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11601986"
+      ]
+    },
+    {
+      "channelNum": 10,
+      "channelName": "中国功夫系列",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1448738174-1448738174-6222283077796757504-2847699112-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11352941"
+      ]
+    },
+    {
+      "channelNum": 11,
+      "channelName": "盗墓系列",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1423782085-1423782085-6115097491705692160-2847687626-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11352913"
+      ]
+    },
+    {
+      "channelNum": 12,
+      "channelName": "贝尔·格里尔斯",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1099531752750-1099531752750-86436105162850304-2199063628956-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=21059555"
+      ]
+    },
+    {
+      "channelNum": 13,
+      "channelName": "埃德·斯塔福德",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1199511935666-1199511935666-5222938282161078272-2399023994788-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=17693860"
+      ]
+    },
+    {
+      "channelNum": 14,
+      "channelName": "周星驰电影1",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1394575534-1394575534-5989656310331736064-2789274524-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11342412"
+      ]
+    },
+    {
+      "channelNum": 15,
+      "channelName": "周星驰电影2",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1449698986-1449698986-6226409733914361856-2847687634-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11352916"
+      ]
+    },
+    {
+      "channelNum": 16,
+      "channelName": "林正英电影",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1394575543-1394575543-5989656348986441728-2789274542-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11342421"
+      ]
+    },
+    {
+      "channelNum": 17,
+      "channelName": "李连杰电影",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1394565196-1394565196-5989611908959830016-2789253848-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11342390"
+      ]
+    },
+    {
+      "channelNum": 18,
+      "channelName": "成龙电影",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1394565191-1394565191-5989611887484993536-2789253838-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11342386"
+      ]
+    },
+    {
+      "channelNum": 19,
+      "channelName": "周润发电影",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1394565192-1394565192-5989611891779960832-2789253840-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11342387"
+      ]
+    },
+    {
+      "channelNum": 20,
+      "channelName": "刘德华电影",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1394575547-1394575547-5989656366166310912-2789274550-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11342424"
+      ]
+    },
+    {
+      "channelNum": 21,
+      "channelName": "吴京电影",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1524434090-1524434090-6547394561457520640-3048991636-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11602045"
+      ]
+    },
+    {
+      "channelNum": 22,
+      "channelName": "甄子丹电影",
+      "channelUrls": [
+        "http://121.51.249.99/tx.hls.huya.com/src/1423787820-1423787820-6115122123343134720-2847699096-10057-A-0-1.m3u8",
+        "http://kkiptv.hk3.20212021.ml/huya.php?id=11352935"
+      ]
+    },
+    {
+      "channelNum": 23,
+      "channelName": "金鹰卡通",
+      "channelUrls": [
+        "http://183.207.248.71/cntv/live1/n-jinyingkaton/n-jinyingkaton",
+        "http://183.207.248.71:80/cntv/live1/n-jinyingkaton/n-jinyingkaton"
+      ]
+    },
+    {
+      "channelNum": 24,
+      "channelName": "哈哈炫动",
+      "channelUrls": [
+        "http://183.207.248.71/cntv/live1/n-xuandongkaton/n-xuandongkaton"
+      ]
+    },
+    {
+      "channelNum": 25,
+      "channelName": "优漫卡通",
+      "channelUrls": [
+        "http://183.207.248.71:80/cntv/live1/n-youmankaton/n-youmankaton",
+        "http://116.199.5.51:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=146&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1"
+      ]
+    },
+    {
+      "channelNum": 26,
+      "channelName": "卡酷少儿",
+      "channelUrls": [
+        "http://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8",
+        "http://183.207.248.71:80/cntv/live1/n-kakukaton/n-kakukaton",
+        "http://116.199.5.51:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=108&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1"
+      ]
+    },
+    {
+      "channelNum": 27,
+      "channelName": "CCTV-1综合",
+      "channelUrls": [
+        "http://223.110.245.154/ott.js.chinamobile.com/PLTV/3/224/3221227634/index.m3u8",
+        "http://223.110.243.159/ott.js.chinamobile.com/PLTV/3/224/3221227725/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 28,
+      "channelName": "CCTV-2财经",
+      "channelUrls": [
+        "http://223.110.245.142/ott.js.chinamobile.com/PLTV/3/224/3221227708/index.m3u8",
+        "http://223.110.245.164/ott.js.chinamobile.com/PLTV/3/224/3221227696/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 29,
+      "channelName": "CCTV-3综艺",
+      "channelUrls": [
+        "http://223.110.243.154/ott.js.chinamobile.com/PLTV/3/224/3221227650/index.m3u8",
+        "http://117.169.124.36:6610/ysten-businessmobile/live/cctv-3/1.m3u8"
+      ]
+    },
+    {
+      "channelNum": 30,
+      "channelName": "CCTV-4中文国际",
+      "channelUrls": [
+        "http://223.110.245.142/ott.js.chinamobile.com/PLTV/3/224/3221227658/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 31,
+      "channelName": "CCTV-5体育",
+      "channelUrls": [
+        "http://124.232.231.246:6610/000000001001/201500000125/index.m3u8?IASHttpSessionId=SLB2046220190906022827233263&m3u8_level=2",
+        "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221227661/index.m3u8",
+        "http://117.136.154.98/PLTV/88888888/224/3221225780/index.m3u8",
+        "http://117.169.124.37:6610/ysten-businessmobile/live/HD-8000k-1080P-cctv5/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 32,
+      "channelName": "CCTV-5+体育赛事",
+      "channelUrls": [
+        "http://223.110.243.165/ott.js.chinamobile.com/PLTV/3/224/3221227631/index.m3u8",
+        "http://223.110.245.142/ott.js.chinamobile.com/PLTV/3/224/3221227685/index.m3u8",
+        "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221227714/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 33,
+      "channelName": "CCTV-6电影",
+      "channelUrls": [
+        "http://39.134.39.39/PLTV/88888888/224/3221226148/index.m3u8",
+        "http://223.110.243.147/ott.js.chinamobile.com/PLTV/3/224/3221227664/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 34,
+      "channelName": "CCTV-7国防军事",
+      "channelUrls": [
+        "http://223.110.243.147/ott.js.chinamobile.com/PLTV/3/224/3221227690/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 35,
+      "channelName": "CCTV-8电视剧",
+      "channelUrls": [
+        "http://223.110.243.144/ott.js.chinamobile.com/PLTV/3/224/3221227667/index.m3u8",
+        "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221227204/index.m3u8",
+        "http://223.110.243.141/ott.js.chinamobile.com/PLTV/3/224/3221227629/index.m3u8",
+        "http://39.134.39.39/PLTV/88888888/224/3221226150/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 36,
+      "channelName": "CCTV-9纪录",
+      "channelUrls": [
+        "http://223.110.243.152/ott.js.chinamobile.com/PLTV/3/224/3221227659/index.m3u8",
+        "http://223.110.243.160/ott.js.chinamobile.com/PLTV/3/224/3221227704/index.m3u8",
+        "http://223.110.243.151/ott.js.chinamobile.com/PLTV/3/224/3221227614/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 37,
+      "channelName": "CCTV-10科教",
+      "channelUrls": [
+        "http://223.110.243.148/ott.js.chinamobile.com/PLTV/3/224/3221227620/index.m3u8",
+        "http://223.110.243.148/ott.js.chinamobile.com/PLTV/3/224/3221227717/index.m3u8",
+        "http://223.110.245.163/ott.js.chinamobile.com/PLTV/3/224/3221227317/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 38,
+      "channelName": "CCTV-11戏曲",
+      "channelUrls": [
+        "http://223.110.243.158/ott.js.chinamobile.com/PLTV/3/224/3221227720/index.m3u8",
+        "http://223.110.243.157/ott.js.chinamobile.com/PLTV/3/224/3221227524/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 39,
+      "channelName": "CCTV-12社会与法",
+      "channelUrls": [
+        "http://223.110.243.165/ott.js.chinamobile.com/PLTV/3/224/3221227637/index.m3u8",
+        "http://223.110.243.148/ott.js.chinamobile.com/PLTV/3/224/3221227655/index.m3u8",
+        "http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225495/index.m3u8?fmt=ts2hls"
+      ]
+    },
+    {
+      "channelNum": 40,
+      "channelName": "CCTV-13新闻",
+      "channelUrls": [
+        "http://60.255.49.202/live/CCTV-xw.m3u8"
+      ]
+    },
+    {
+      "channelNum": 41,
+      "channelName": "CCTV-14少儿",
+      "channelUrls": [
+        "http://223.110.243.157/ott.js.chinamobile.com/PLTV/3/224/3221227656/index.m3u8",
+        "http://223.110.243.141/ott.js.chinamobile.com/PLTV/3/224/3221227693/index.m3u8",
+        "http://39.134.39.39/PLTV/88888888/224/3221226166/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 42,
+      "channelName": "CCTV-15音乐",
+      "channelUrls": [
+        "http://223.110.243.153/ott.js.chinamobile.com/PLTV/3/224/3221227538/index.m3u8",
+        "http://223.110.243.154/ott.js.chinamobile.com/PLTV/3/224/3221227723/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 43,
+      "channelName": "CCTV-16奥林匹克",
+      "channelUrls": [
+        "http://121.18.168.210/livetestcdn.cctv.cn/hls/CCTV16HD/playlist.m3u8",
+        "http://223.110.251.152:6610/cntv/live1/HD-8000k-1080P-cctv16/HD-8000k-1080P-cctv16",
+        "http://121.18.168.210/livetestcdn.cctv.cn/hls/4KHD/playlist.m3u8"
+      ]
+    },
+    {
+      "channelNum": 44,
+      "channelName": "CCTV-17农业农村",
+      "channelUrls": [
+        "http://223.110.243.167/ott.js.chinamobile.com/PLTV/3/224/3221227589/index.m3u8",
+        "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221227726/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 45,
+      "channelName": "湖南卫视",
+      "channelUrls": [
+        "http://39.134.39.39/PLTV/88888888/224/3221226193/index.m3u8",
+        "http://124.232.231.246:6610/000000001001/201500000219/index.m3u8?IASHttpSessionId=SLB2046220190906022827233263&m3u8_level=2",
+        "http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225745/index.m3u8",
+        "http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225490/index.m3u8?fmt=ts2hls",
+        "http://183.207.248.71:80/cntv/live1/hunanstv/hunanstv",
+        "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221227698/index.m3u8",
+        "http://223.110.245.152/ott.js.chinamobile.com/PLTV/3/224/3221227735/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 46,
+      "channelName": "浙江卫视",
+      "channelUrls": [
+        "http://223.110.245.154/ott.js.chinamobile.com/PLTV/3/224/3221227744/index.m3u8",
+        "http://223.110.243.162/ott.js.chinamobile.com/PLTV/3/224/3221227692/index.m3u8",
+        "http://223.110.245.154/ott.js.chinamobile.com/PLTV/3/224/3221227491/index.m3u8",
+        "http://223.110.243.173/PLTV/3/224/3221227215/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 47,
+      "channelName": "四川卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100017/otpzod_hn,100017_hls_pull_2000K_live.m3u8",
+        "http://117.136.154.98/PLTV/88888888/224/3221225794/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 48,
+      "channelName": "贵州卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100019/otpzod_otpzod,100019_hls_pull_2000K_live.m3u8",
+        "http://183.207.248.71:80/cntv/live1/n-guizhoustv/n-guizhoustv"
+      ]
+    },
+    {
+      "channelNum": 49,
+      "channelName": "云南卫视",
+      "channelUrls": [
+        "http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225838/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 50,
+      "channelName": "河南卫视",
+      "channelUrls": [
+        "http://ccav.smymi.com:4000/rtp/239.93.42.45:5140",
+        "http://129.226.107.225/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226064/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 51,
+      "channelName": "河北卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100008/otpzod_otpzod,100008_hls_pull_2000K_live.m3u8",
+        "http://117.136.154.85/PLTV/88888888/224/3221225844/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 52,
+      "channelName": "安徽卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100013/otpzod_otpzod,100013_hls_pull_2000K_live.m3u8",
+        "http://223.110.243.154/ott.js.chinamobile.com/PLTV/3/224/3221227643/index.m3u8",
+        "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221227653/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 53,
+      "channelName": "江西卫视",
+      "channelUrls": [
+        "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221227738/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 54,
+      "channelName": "江苏卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100011/otpzod_otpzod,100011_hls_pull_2000K_live.m3u8",
+        "http://117.136.154.98/PLTV/88888888/224/3221225758/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 55,
+      "channelName": "湖北卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100015/otpzod_hn,100015_hls_pull_2000K_live.m3u8",
+        "http://223.110.245.166/ott.js.chinamobile.com/PLTV/3/224/3221227377/index.m3u8",
+        "http://223.110.243.167/ott.js.chinamobile.com/PLTV/3/224/3221227565/index.m3u8",
+        "http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221227665/index.m3u8",
+        "http://223.110.245.154/ott.js.chinamobile.com/PLTV/3/224/3221227703/index.m3u8",
+        "http://223.110.243.171/PLTV/3/224/3221227211/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 56,
+      "channelName": "重庆卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100018/otpzod_hn,100018_hls_pull_2000K_live.m3u8",
+        "http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221227632/index.m3u8",
+        "http://223.110.243.165/ott.js.chinamobile.com/PLTV/3/224/3221227550/index.m3u8",
+        "http://223.110.245.154/ott.js.chinamobile.com/PLTV/3/224/3221227729/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 57,
+      "channelName": "山东卫视",
+      "channelUrls": [
+        "http://223.110.243.156/ott.js.chinamobile.com/PLTV/3/224/3221227621/index.m3u8",
+        "http://223.110.243.157/ott.js.chinamobile.com/PLTV/3/224/3221227671/index.m3u8",
+        "http://223.110.245.154/ott.js.chinamobile.com/PLTV/3/224/3221227258/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 58,
+      "channelName": "海南卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100022/otpzod_otpzod,100022_hls_pull_2000K_live.m3u8",
+        "http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225722/index.m3u8",
+        "http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226212/index.m3u8?fmt=ts2hls"
+      ]
+    },
+        {
+      "channelNum": 59,
+      "channelName": "山西卫视",
+      "channelUrls": [
+        "http://223.110.246.73/ott.js.chinamobile.com/PLTV/4/224/3221225786/index.m3u8",
+        "http://183.207.248.71:80/cntv/live1/n-shanxistv/n-shanxistv"
+      ]
+    },
+    {
+      "channelNum": 60,
+      "channelName": "天津卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100007/otpzod_otpzod,100007_hls_pull_2000K_live.m3u8",
+        "http://223.110.245.154/ott.js.chinamobile.com/PLTV/3/224/3221227382/index.m3u8",
+        "http://223.110.245.140/ott.js.chinamobile.com/PLTV/3/224/3221227212/index.m3u8",
+        "http://223.110.243.162/ott.js.chinamobile.com/PLTV/3/224/3221227633/index.m3u8",
+        "http://223.110.243.148/ott.js.chinamobile.com/PLTV/3/224/3221227756/index.m3u8",
+        "http://223.110.245.166/ott.js.chinamobile.com/PLTV/3/224/3221227741/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 61,
+      "channelName": "广东卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100020/otpzod_otpzod,100020_hls_pull_2000K_live.m3u8",
+        "http://223.110.243.162/ott.js.chinamobile.com/PLTV/3/224/3221227591/index.m3u8",
+        "http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221227673/index.m3u8",
+        "http://223.110.245.154/ott.js.chinamobile.com/PLTV/3/224/3221227445/index.m3u8",
+        "http://223.110.245.160/ott.js.chinamobile.com/PLTV/3/224/3221227476/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 62,
+      "channelName": "广西卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100021/otpzod_otpzod,100021_hls_pull_2000K_live.m3u8",
+        "http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=121&Fsv_rate_id=1&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1",
+        "http://183.207.248.71:80/cntv/live1/n-guangxistv/n-guangxistv"
+      ]
+    },
+    {
+      "channelNum": 63,
+      "channelName": "深圳卫视",
+      "channelUrls": [
+        "http://223.110.243.141/ott.js.chinamobile.com/PLTV/3/224/3221227624/index.m3u8",
+        "http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221227695/index.m3u8",
+        "http://223.110.245.154/ott.js.chinamobile.com/PLTV/3/224/3221227677/index.m3u8",
+        "http://39.134.115.163:8080/PLTV/88888910/224/3221225741/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 64,
+      "channelName": "陕西卫视",
+      "channelUrls": [
+        "http://39.134.115.163:8080/PLTV/88888910/224/3221225729/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 65,
+      "channelName": "甘肃卫视",
+      "channelUrls": [
+        "http://39.134.115.163:8080/PLTV/88888910/224/3221225724/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 66,
+      "channelName": "东方卫视",
+      "channelUrls": [
+        "http://223.110.243.142/ott.js.chinamobile.com/PLTV/3/224/3221227597/index.m3u8",
+        "http://223.110.243.152/ott.js.chinamobile.com/PLTV/3/224/3221227732/index.m3u8",
+        "http://39.134.135.82/otttv.bj.chinamobile.com/TVOD/88888888/224/3221226364/1.m3u8"
+      ]
+    },
+    {
+      "channelNum": 67,
+      "channelName": "东南卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100014/otpzod_otpzod,100014_hls_pull_2000K_live.m3u8",
+        "http://223.110.243.162/ott.js.chinamobile.com/PLTV/3/224/3221227553/index.m3u8",
+        "http://39.134.39.39/PLTV/88888888/224/3221226182/index.m3u8",
+        "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221227670/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 68,
+      "channelName": "北京卫视",
+      "channelUrls": [
+        "http://39.134.39.39/PLTV/88888888/224/3221226161/index.m3u8",
+        "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221227652/index.m3u8",
+        "http://183.207.248.71:80/cntv/live1/HD-2500k-1080P-beijingstv/HD-2500k-1080P-beijingstv"
+      ]
+    },
+    {
+      "channelNum": 69,
+      "channelName": "黑龙江卫视",
+      "channelUrls": [
+        "http://223.110.245.160/ott.js.chinamobile.com/PLTV/3/224/3221227252/index.m3u8",
+        "http://223.110.245.164/ott.js.chinamobile.com/PLTV/3/224/3221227323/index.m3u8",
+        "http://223.110.243.142/ott.js.chinamobile.com/PLTV/3/224/3221227662/index.m3u8",
+        "http://223.110.243.154/ott.js.chinamobile.com/PLTV/3/224/3221227638/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 70,
+      "channelName": "吉林卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100005/otpzod_otpzod,100005_hls_pull_2000K_live.m3u8",
+        "http://116.199.5.52:8114/00000000/index.m3u8?&amp;Fsv_ctype=LIVES&amp;Fsv_otype=1&amp;FvSeid=5abd1660af1babb4&amp;Fsv_filetype=1&amp;Fsv_ctype=LIVES&amp;Fsv_cid=0&amp;Fsv_chan_hls_se_idx=25&amp;Fsv_rate_id=0&amp;Fsv_SV_PARAM1=0&amp;Fsv_ShiftEnable=0&amp;Fsv_ShiftTsp=0&amp;Provider_id=&amp;Pcontent_id=&amp;Fsv_CMSID=&amp;Fsv_otype=1"
+      ]
+    },
+    {
+      "channelNum": 71,
+      "channelName": "辽宁卫视",
+      "channelUrls": [
+        "http://womlive.cloud.wo.cn/tvlive/100004/otpzod_otpzod,100004_hls_pull_2000K_live.m3u8",
+        "http://223.110.243.151/ott.js.chinamobile.com/PLTV/3/224/3221227676/index.m3u8",
+        "http://223.110.243.162/ott.js.chinamobile.com/PLTV/3/224/3221227700/index.m3u8",
+        "http://117.136.154.98/PLTV/88888888/224/3221225524/index.m3u8",
+        "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221227410/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 72,
+      "channelName": "宁夏卫视",
+      "channelUrls": [
+        "http://183.207.248.71:80/cntv/live1/n-ningxiastv/n-ningxiastv",
+        "http://223.110.246.72/ott.js.chinamobile.com/PLTV/4/224/3221225842/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 73,
+      "channelName": "西藏卫视",
+      "channelUrls": [
+        "http://39.134.115.163:8080/PLTV/88888910/224/3221225723/index.m3u8",
+        "http://117.169.124.36:6610/ysten-businessmobile/live/xizangstv/1.m3u8"
+      ]
+    },
+    {
+      "channelNum": 74,
+      "channelName": "新疆卫视",
+      "channelUrls": [
+        "http://111.0.27.21/livehyw5.chinamcache.com/hyw/zb01.m3u8",
+        "http://117.169.124.36:6610/ysten-businessmobile/live/xinjiangstv/1.m3u8",
+        "http://223.110.246.71/ott.js.chinamobile.com/PLTV/4/224/3221225844/index.m3u8"
+      ]
+    },
+    {
+      "channelNum": 75,
+      "channelName": "内蒙古卫视",
+      "channelUrls": [
+        "http://live.m2oplus.nmtv.cn/1/sd/live.m3u8"
+      ]
+    },
+    {
+      "channelNum": 76,
+      "channelName": "青海卫视",
+      "channelUrls": [
+        "http://183.207.248.71:80/cntv/live1/n-qinghaistv/n-qinghaistv",
+        "http://39.134.115.163:8080/PLTV/88888910/224/3221225727/index.m3u8"
+      ]
+    }
+  ],
+  "prase": [
+    {
+      "id": 1,
+      "parseName": "解析1",
+      "parseUrl": "https://jx.xmflv.vip/?url=",
+      "click": true
+    },
+    {
+      "id": 2,
+      "parseName": "解析2",
+      "parseUrl": "https://jx.xmflv.com/?url=",
+      "click": true
+    },
+    {
+      "id": 3,
+      "parseName": "解析3",
+      "parseUrl": "https://jx.parwix.com:4433/player/?url=",
+      "click": true
+    },
+    {
+      "id": 4,
+      "parseName": "解析4",
+      "parseUrl": "https://jx.parwix.com:4433/player/analysis.php?v=",
+      "click": true
+    },
+    {
+      "id": 5,
+      "parseName": "解析5",
+      "parseUrl": "https://nbjx.vip/?url=",
+      "click": true
+    },
+    {
+      "id": 6,
+      "parseName": "解析6",
+      "parseUrl": "https://okjx.cc?url=",
+      "click": true
+    },
+    {
+      "id": 7,
+      "parseName": "解析7",
+      "parseUrl": "https://vip.bljiex.com/?v=",
+      "click": true
+    },
+    {
+      "id": 8,
+      "parseName": "解析8",
+      "parseUrl": "https://m2090.com/?url=",
+      "click": true
+    },
+    {
+      "id": 9,
+      "parseName": "解析9",
+      "parseUrl": "https://vvv.xymav.com:520/m3u8.php?url=",
+      "click": true
+    },
+    {
+      "id": 10,
+      "parseName": "解析10",
+      "parseUrl": "https://pl.yxq.email/?url=",
+      "click": true
+    }
+  ],
+  "searchApi": [
+    {
+      "type": "360",
+      "api": "https://s.video.qq.com/smartbox?plat=2&ver=0&num=10&otype=json&query=%s"
+    },
+    {
+      "type": "douban",
+      "api": "https://movie.douban.com/j/subject_suggest?q=%s"
+    },
+    {
+      "type": "yingshi",
+      "api": "http://api.jinsapi.com/yingshi/search?version=117&keys=%s&page=0&pageSize=10"
+    }
+  ],
+  "adFilter": [
+    "mimg.0c1q0l.cn",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "mc.usihnbcq.cn",
+    "mg.g1mm3d.cn",
+    "mscs.svaeuzh.cn",
+    "cnzz.hhttm.top",
+    "tp.vinuxhome.com",
+    "cnzz.mmstat.com",
+    "www.baihuillq.com",
+    ".cnzz.com",
+    "stj.v1vo.top",
+    "img.mosflower.cn",
+    "tips.gamevvip.com",
+    "ehwe.yhdtns.com",
+    "xdn.cqqc3.com",
+    "www.jixunkyy.cn",
+    "sp.chemacid.cn",
+    "hm.baidu.com",
+    "um.cavuc.com",
+    "mav.mavuz.com",
+    "wofwk.aoidf3.com",
+    "xc.hubeijieshikj.cn",
+    "tj.tianwenhu.com",
+    "xg.gars57.cn",
+    "k.jinxiuzhilv.com",
+    "cdn.bootcss.com",
+    "ppl.xunzhuo123.com",
+    "xomk.jiangjunmh.top",
+    "img.xunzhuo123.com",
+    "xg.huataisangao.cn",
+    "thy.dacedsfa.cn",
+    "xg.whsbpw.cn",
+    "f5w.as12df.top",
+    "ae01.alicdn.com",
+    "www.92424.cn",
+    "k.wudejia.com",
+    "vivovip.mmszxc.top",
+    "qiu.xixiqiu.com",
+    "cdnjs.hnfenxun.com",
+    "cms.qdwght.com",
+    ".sq88.press",
+    "mg.hxhhb120.cn",
+    "mg.miaolejieshui.cn",
+    "xc.cdhxhhb.cn",
+    "xg.cdhhbyy.cn",
+    "k.13hangpifa.com",
+    "thefatherofsalmon.com",
+    ".51.la",
+    ".jiubojx.com",
+    "www.bmbaike.cn",
+    "cdnjs.xmlanshu.com",
+    "cdn0.sxhjty.cn",
+    "an5.uyueread.com",
+    "img.sdzqx7d.cn",
+    "m.yqqlm.vip",
+    "wap.xwkchcl.top",
+    "pv.sohu.com",
+    "www.q4ee.top",
+    "cdn.wmnvhai.com"
+  ]
+}
