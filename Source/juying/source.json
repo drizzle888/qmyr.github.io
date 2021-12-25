@@ -1,0 +1,253 @@
+{
+  "source": [
+    {
+      "type": "",
+      "sourceName": "糖果资源",
+      "baseUrl": "http://vip-01.tgzy.cc",
+      "apiUrl": "http://vip-01.tgzy.cc/api.php/provide/vod/at/xml",
+      "parserUrl": ""
+    },
+    {
+      "type": "",
+      "sourceName": "麒麟资源",
+      "baseUrl": "http://www.qilinzyz.com",
+      "apiUrl": "http://www.qilinzyz.com/api.php/provide/vod/at/xml",
+      "parserUrl": ""
+    },
+    {
+      "type": "",
+      "sourceName": "优酷视频",
+      "baseUrl": "http://www.zycaiji.net",
+      "apiUrl": "http://www.zycaiji.net:7788/api.php/provide/vod/from/youku/at/xml",
+      "parserUrl": ""
+    },
+    {
+      "type": "",
+      "sourceName": "腾讯视频",
+      "baseUrl": "http://www.zycaiji.net",
+      "apiUrl": "http://www.zycaiji.net:7788/api.php/provide/vod/from/qq/at/xml",
+      "parserUrl": "https://jx.xmflv.vip/?url="
+    },
+    {
+      "type": "",
+      "sourceName": "爱奇艺视频",
+      "baseUrl": "http://www.zycaiji.net",
+      "apiUrl": "http://www.zycaiji.net:7788/api.php/provide/vod/from/qiyi/at/xml",
+      "parserUrl": ""
+    },
+    {
+      "type": "",
+      "sourceName": "芒果TV",
+      "baseUrl": "http://www.zycaiji.net",
+      "apiUrl": "http://www.zycaiji.net:7788/api.php/provide/vod/from/mgtv/at/xml",
+      "parserUrl": ""
+    },
+    {
+      "type": "",
+      "sourceName": "M3U8资源",
+      "baseUrl": "http://www.zycaiji.net",
+      "apiUrl": "http://www.zycaiji.net:7788/api.php/provide/vod/at/xml",
+      "parserUrl": ""
+    },
+    {
+      "type": "",
+      "sourceName": "8090资源",
+      "baseUrl": "http://zy.yilans.net",
+      "apiUrl": "http://zy.yilans.net:8090/api.php/provide/vod/at/xml",
+      "parserUrl": ""
+    },
+    {
+      "type": "",
+      "sourceName": "555资源",
+      "baseUrl": "http://w7tv.com",
+      "apiUrl": "http://w7tv.com/api.php/provide/vod/at/xml",
+      "parserUrl": ""
+    },
+    {
+      "type": "",
+      "sourceName": "侦探资源",
+      "baseUrl": "http://ys.huangguay.com",
+      "apiUrl": "http://ys.huangguay.com/api.php/provide/vod/at/xml",
+      "parserUrl": ""
+    },
+    {
+      "type": "",
+      "sourceName": "天堂资源",
+      "baseUrl": "http://vipmv.cc",
+      "apiUrl": "http://vipmv.cc/api.php/provide/vod/at/xml",
+      "parserUrl": ""
+    },
+    {
+      "type": "",
+      "sourceName": "暴风资源",
+      "baseUrl": "https://www.bofangya.com",
+      "apiUrl": "https://www.bofangya.com/api.php/provide/vod/at/xml",
+      "parserUrl": ""
+    },
+    {
+      "type": "AppV0",
+      "sourceName": "555资源",
+      "baseUrl": "http://w7tv.com",
+      "apiUrl": "http://w7tv.com/api.php/app/",
+      "searchUrl": "http://w7tv.com/api.php/app/search?text=%s&pg=1",
+      "detailUrl": "http://w7tv.com/api.php/app/video_detail?id=%s",
+      "parserUrl": ""
+    },
+    {
+      "type": "AppV0",
+      "sourceName": "九合资源",
+      "baseUrl": "https://ptygx.com",
+      "apiUrl": "https://ptygx.com/api.php/app/",
+      "searchUrl": "https://ptygx.com/api.php/app/search?text=%s&pg=1",
+      "detailUrl": "https://ptygx.com/api.php/app/video_detail?id=%s",
+      "parserUrl": ""
+    },
+    {
+      "type": "aiKanTv",
+      "sourceName": "淘剧资源",
+      "baseUrl": "",
+      "apiUrl": "http://app.shuhai99.com/api.php/v1.vod",
+      "searchUrl": "http://app.shuhai99.com/api.php/v1.vod?page=1&limit=10&wd=%s",
+      "detailUrl": "http://app.shuhai99.com/api.php/v1.vod/detail?vod_id=%s&rel_limit=10",
+      "parserUrl": ""
+    },
+    {
+      "type": "aiKanTv",
+      "sourceName": "手指资源",
+      "baseUrl": "",
+      "apiUrl": "http://szys3355.com/mogai_api.php/v1.vod",
+      "searchUrl": "http://szys3355.com/mogai_api.php/v1.vod?page=1&limit=10&wd=%s",
+      "detailUrl": "http://szys3355.com/mogai_api.php/v1.vod/detail?vod_id=%s&rel_limit=10",
+      "parserUrl": ""
+    }
+  ],
+  "parseUrl": [
+    "https://jx.xmflv.vip/?url=",
+    "https://jx.xmflv.com/?url=",
+    "https://jx.parwix.com:4433/player/?url=",
+    "https://jx.parwix.com:4433/player/analysis.php?v=",
+    "https://nbjx.vip/?url=",
+    "https://okjx.cc?url=",
+    "https://vip.bljiex.com/?v=",
+    "https://m2090.com/?url=",
+    "https://vvv.xymav.com:520/m3u8.php?url=",
+    "https://pl.yxq.email/?url="
+  ],
+  "jsonParse": [
+    "https://api.parwix.com:4433/analysis/json/?uid=1735&my=egkqvxzBEHPQSUWX28&url=",
+    "http://admin.vodjx.top/json.php?url=",
+    "http://jx.ledu8.cn/api/?key=P8QSgO61p1MpHV2ALn&url=",
+    "https://svip.renrenmi.cc:2222/api/?key=mtjJAJRXpwT5XAqWnn&url=",
+    "https://xt.gbxy.net.cn/api/?key=7gAmfK5typSVsg2Qnr&url=",
+    "https://json.nbjx.vip:4399/?wap=0&url="
+  ],
+  "ad": [
+    "alipay.com",
+    "mimg.0c1q0l.cn",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "mc.usihnbcq.cn",
+    "mg.g1mm3d.cn",
+    "mscs.svaeuzh.cn",
+    "cnzz.hhttm.top",
+    "tp.vinuxhome.com",
+    "cnzz.mmstat.com",
+    "www.baihuillq.com",
+    ".cnzz.com",
+    "stj.v1vo.top",
+    "img.mosflower.cn",
+    "tips.gamevvip.com",
+    "ehwe.yhdtns.com",
+    "xdn.cqqc3.com",
+    "www.jixunkyy.cn",
+    "sp.chemacid.cn",
+    "hm.baidu.com",
+    "um.cavuc.com",
+    "mav.mavuz.com",
+    "wofwk.aoidf3.com",
+    "xc.hubeijieshikj.cn",
+    "tj.tianwenhu.com",
+    "xg.gars57.cn",
+    "k.jinxiuzhilv.com",
+    "cdn.bootcss.com",
+    "ppl.xunzhuo123.com",
+    "xomk.jiangjunmh.top",
+    "img.xunzhuo123.com",
+    "xg.huataisangao.cn",
+    "thy.dacedsfa.cn",
+    "xg.whsbpw.cn",
+    "f5w.as12df.top",
+    "ae01.alicdn.com",
+    "www.92424.cn",
+    "k.wudejia.com",
+    "vivovip.mmszxc.top",
+    "qiu.xixiqiu.com",
+    "cdnjs.hnfenxun.com",
+    "cms.qdwght.com",
+    ".sq88.press",
+    "mg.hxhhb120.cn",
+    "mg.miaolejieshui.cn",
+    "xc.cdhxhhb.cn",
+    "xg.cdhhbyy.cn",
+    "k.13hangpifa.com",
+    "thefatherofsalmon.com",
+    ".51.la",
+    ".jiubojx.com",
+    "www.bmbaike.cn",
+    "cdnjs.xmlanshu.com",
+    "cdn0.sxhjty.cn",
+    "an5.uyueread.com",
+    "img.sdzqx7d.cn",
+    "m.yqqlm.vip",
+    "wap.xwkchcl.top",
+    "pv.sohu.com",
+    "www.q4ee.top",
+    "cdn.wmnvhai.com",
+    "api.zhongwenqing.com",
+    "kxv.kxvuv.com",
+    "hm.baidu.com",
+    "cdn.7nsc.cn"
+  ],
+  "address": [
+    {
+      "name": "优酷视频官网",
+      "url": "https://www.youku.com/"
+    },
+    {
+      "name": "腾讯视频官网",
+      "url": "https://m.v.qq.com/index.html"
+    },
+    {
+      "name": "爱奇艺官网",
+      "url": "https://m.iqiyi.com/"
+    },
+    {
+      "name": "芒果TV官网",
+      "url": "https://m.mgtv.com/"
+    },
+    {
+      "name": "BiliBili官网",
+      "url": "https://m.bilibili.com/"
+    },
+    {
+      "name": "搜狐视频官网",
+      "url": "https://m.tv.sohu.com/"
+    },
+    {
+      "name": "乐视视频官网",
+      "url": "https://m.le.com/"
+    },
+    {
+      "name": "1905视频官网",
+      "url": "https://m.1905.com/"
+    },
+    {
+      "name": "PPTV视频官网",
+      "url": "https://m.pptv.com/"
+    }
+  ],
+  "openAd": false,
+  "hint": "",
+  "about": "声明\n视频源与解析接口来源于互联网\n聚影未参与视频制作与上传\n未提供视频下载与储存等事项\n视频中字幕广告与聚影无关\n切勿相信视频中任何字幕广告\n聚影仅作为学习交流使用\n请于下载安装后24小时内卸载删除\nBy:清明妖人",
+  "hintVersion": 0
+}
