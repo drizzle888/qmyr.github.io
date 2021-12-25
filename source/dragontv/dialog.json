@@ -1,0 +1,41 @@
+ConfigStart
+
+“Switch”false,“Switch”                          #总开关
+“IntelligenceShow”false,“IntelligenceShow”      #智能弹出
+“VersinonCode”1.0.1,“VersinonCode”              #配置文件版本号与APP内部版本号相同时不会弹窗
+“Mandatory”false,“Mandatory”                    #强制弹出
+“CanBeClosed”true,“CanBeClosed”                 #点击外部能否关闭弹窗
+“Style”White,“Style”                            #弹窗风格
+“Background”false,“Background”                  #弹窗外部背景透明
+
+“Title”更新提示：1.0.1———1.0.2,“Title”           #标题
+“TitleColor”#1296DB,“TitleColor”                #标题颜色
+
+“Message”
+1：电视和点播界面增加使用提示
+<br/>
+2：优化首字母搜索结果的匹配率
+<br/>
+3：分类增加资源筛选功能(需数据源支持筛选)
+<br/><br/><br/>
+更新需要调用浏览器,无可用浏览器将无法更新
+<br/>
+电视机使用遥控器方向键选择更新或取消按钮,“Message”                #信息
+“MessageColor” #1296DB ,“MessageColor”               #信息颜色
+
+“ConfirmButton”true,“ConfirmButton”                  #确定按钮开关
+“ConfirmButtonText”更新,“ConfirmButtonText”          #确定按钮文字
+“ConfirmButtonColor”#1296DB,“ConfirmButtonColor”     #确定按钮颜色
+“ConfirmButtonEvent”链接https://qmyr.coding.net/p/DragonTV/d/DragonTV/git/raw/master/App/DragonTV-1.0.2.apk,“ConfirmButtonEvent”     #确定按钮点击事件
+
+“CancelButton”true,“CancelButton”                              #取消按钮开关
+“CancelButtonText”取消,“CancelButtonText”                      #取消按钮文字
+“CancelButtonColor”#1296DB,“CancelButtonColor”                 #取消按钮颜色
+“CancelButtonEvent”Nothing,“CancelButtonEvent”                 #取消按钮点击事件
+
+“FunctionButton”false,“FunctionButton”                           #功能按钮开关
+“FunctionButtonText”联系作者,“FunctionButtonText”               #功能按钮文字
+“FunctionButtonColor”#1296DB,“FunctionButtonColor”             #功能按钮颜色
+“FunctionButtonEvent”QQ对话2015419233,“FunctionButtonEvent”    #功能按钮点击事件
+
+ConfigEnd
