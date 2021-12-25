@@ -5,9 +5,7 @@
       "name": "麒麟资源",
       "type": 0,
       "api": "http://www.qilinzyz.com/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
+      "playUrl": "",
       "categories": [
         "电影",
         "电影（B站）",
