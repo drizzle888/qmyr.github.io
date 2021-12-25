@@ -1,0 +1,12 @@
+{
+  "open":true,
+  "newOpen":true,
+  "appOpen":true,
+  "versionCode": 999,
+  "appHint":false,
+  "openAd":false,
+  "rewardHint":false,
+  "rewardNum":0,
+  "message":false,
+  "messageNum":0
+}
