@@ -1,0 +1,37 @@
+ConfigStart
+
+“Switch”false,“Switch”                          #总开关
+“IntelligenceShow”false,“IntelligenceShow”      #智能弹出
+“VersinonCode”1.0.5,“VersinonCode”              #配置文件版本号与APP内部版本号相同时不会弹窗
+“Mandatory”false,“Mandatory”                    #强制弹出
+“CanBeClosed”true,“CanBeClosed”                 #点击外部能否关闭弹窗
+“Style”White,“Style”                            #弹窗风格
+“Background”false,“Background”                  #弹窗外部背景透明
+
+“Title”更新提示：1.0.5———1.0.6,“Title”           #标题
+“TitleColor”#1296DB,“TitleColor”                #标题颜色
+
+“Message”
+1：首页默认数据更改
+<br/>
+从"电视剧"更改为"电影"首选显示
+<br/><br/><br/>
+点击更新下载安装包后请手动安装,“Message”                #信息
+“MessageColor” #1296DB ,“MessageColor”               #信息颜色
+
+“ConfirmButton”true,“ConfirmButton”                  #确定按钮开关
+“ConfirmButtonText”更新,“ConfirmButtonText”          #确定按钮文字
+“ConfirmButtonColor”#1296DB,“ConfirmButtonColor”     #确定按钮颜色
+“ConfirmButtonEvent”链接https://qmyr.coding.net/p/JuYing/d/JuYing/git/raw/master/App/%E8%81%9A%E5%BD%B1-1.0.6.apk,“ConfirmButtonEvent”     #确定按钮点击事件
+
+“CancelButton”true,“CancelButton”                              #取消按钮开关
+“CancelButtonText”取消,“CancelButtonText”                      #取消按钮文字
+“CancelButtonColor”#1296DB,“CancelButtonColor”                 #取消按钮颜色
+“CancelButtonEvent”Nothing,“CancelButtonEvent”                 #取消按钮点击事件
+
+“FunctionButton”false,“FunctionButton”                           #功能按钮开关
+“FunctionButtonText”联系作者,“FunctionButtonText”               #功能按钮文字
+“FunctionButtonColor”#1296DB,“FunctionButtonColor”             #功能按钮颜色
+“FunctionButtonEvent”QQ对话2015419233,“FunctionButtonEvent”    #功能按钮点击事件
+
+ConfigEnd
