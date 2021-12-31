@@ -1,0 +1,317 @@
+[
+    {
+        "name": "1",
+        "api": "http://f2dcj6.com/sapi/?ac=videolist",
+        "useInSearchAll": true
+    },
+    {
+        "name": "2",
+        "api": "http://mygzycj.com/sapi.php?ac=videolist",
+        "useInSearchAll": true
+    },
+    {
+        "name": "3",
+        "api": "http://bttcj.com/inc/sapi.php?ac=videolist",
+        "useInSearchAll": true
+    },
+    {
+        "name": "4",
+        "api": "http://secj8.com/inc/sapi.php?ac=videolist",
+        "useInSearchAll": true
+    },
+    {
+        "name": "5",
+        "api": "http://99zywcj.com/inc/sapi.php?ac=videolist",
+        "useInSearchAll": true
+    },
+    {
+        "name": "6",
+        "api": "http://cjmygzy.com/inc/sapi.php?ac=videolist",
+        "useInSearchAll": true
+    },
+    {
+        "name": "7",
+        "api": "http://wmcj8.com/inc/sapi.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "8",
+        "api": "https://4000zy.com/inc/api.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "9",
+        "api": "http://baoyub.live/inc/api.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "10",
+        "api": "http://bbzy.cc/inc/maccms10.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "11",
+        "api": "http://m.7777688.com/inc/api.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "12",
+        "api": "https://www.77zy.vip/inc/api.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "13",
+        "api": "https://www.msnii.com/api/xml.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "14",
+        "api": "https://www.xrbsp.com/api/xml.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "15",
+        "api": "https://www.gdlsp.com/api/xml.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "16",
+        "api": "https://www.afasu.com/api/xml.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "17",
+        "api": "https://www.pgxdy.com/api/xml.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "18",
+        "api": "http://www.njxinli.com/inc/api.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "19",
+        "api": "https://cj.apihjzy.com/inc/api.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "20",
+        "api": "http://www.010aizy.com/API/maxs.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "21",
+        "api": "https://api.jialiapi.com/inc/api.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "22",
+        "api": "https://www.leyuzyapi.com/inc/seacmsapi.php",
+        "useInSearchAll": true
+    },
+    {
+        "name": "23",
+        "api": "http://www.ggmmzy.com:9999/inc/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "24",
+        "api": "http://fhapi9.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "25",
+        "api": "http://51smt4.xyz/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "26",
+        "api": "https://lbapi9.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "27",
+        "api": "https://mgzyz1.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "28",
+        "api": "http://api.xxcr.tk/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "29",
+        "api": "https://apittzy.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "30",
+        "api": "https://dadiapi.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "31",
+        "api": "https://apihjzy.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "32",
+        "api": "http://api.11bat.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "33",
+        "api": "https://jialiapi.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "34",
+        "api": "https://shayuapi.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "35",
+        "api": "http://www.llbdzy.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "36",
+        "api": "https://javcaptain.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "37",
+        "api": "https://www.1024nf.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "38",
+        "api": "http://api.saosezy.icu/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "39",
+        "api": "https://www.888dav.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "40",
+        "api": "https://www.siwazyw.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "41",
+        "api": "http://cj.cangtiancj.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "42",
+        "api": "https://api.xiuseapi.com/api.php/provide/vod/at/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "43",
+        "api": "http://32ddtv.com/home/cjapi/c74d97b01eae257e44aa9d5bade97baf/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "44",
+        "api": "https://86xjj.com/home/cjapi/70efdf2ec9b086079795c442636b55fb/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "45",
+        "api": "http://sdscj11.com/home/cjapi/9bf31c7ff062936a96d3c8bd1f8f2ff3/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "46",
+        "api": "http://xcncaiji.com/home/cjapi/812b4ba287f5ee0bc9d43bbf5bbe87fb/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "47",
+        "api": "http://www.caiji03.com/home/cjapi/44f683a84163b3523afe57c2e008bc8c/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "48",
+        "api": "http://www.caiji04.com/home/cjapi/03afdbd66e7929b125f8597834fa83a4/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "49",
+        "api": "http://www.caiji05.com/home/cjapi/ea5d2f1c4608232e07d3aa3d998e5135/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "50",
+        "api": "http://www.caiji06.com/home/cjapi/fc490ca45c00b1249bbe3554a4fdf6fb/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "51",
+        "api": "http://www.caiji09.com/home/cjapi/a3f390d88e4c41f2747bfa2f1b5f87db/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "52",
+        "api": "http://www.caiji21.com/home/cjapi/28dd2c7955ce926456240b2ff0100bde/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "53",
+        "api": "http://www.caiji24.com/home/cjapi/f033ab37c30201f73f142449d037028d/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "54",
+        "api": "http://www.caiji25.com/home/cjapi/43ec517d68b6edd3015b3edc9a11367b/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "55",
+        "api": "http://www.caiji26.com/home/cjapi/9778d5d219c5080b9a6a17bef029331c/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "56",
+        "api": "https://www.caiji01.com/home/cjapi/072b030ba126b2f4b2374f342be9ed44/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "57",
+        "api": "https://www.caiji02.com/home/cjapi/7f39f8317fbdb1988ef4c628eba02591/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "58",
+        "api": "https://www.caiji08.com/home/cjapi/735b90b4568125ed6c3f678819b6e058/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "59",
+        "api": "https://www.caiji22.com/home/cjapi/35f4a8d465e6e1edc05f3d8ab658c551/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "60",
+        "api": "https://www.caiji23.com/home/cjapi/d1fe173d08e959397adf34b1d77e88d7/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "61",
+        "api": "http://www.yrqcaiji.com/home/cjapi/98dce83da57b0395e163467c9dae521b/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "62",
+        "api": "https://www.sldcaiji.com/home/cjapi/f4b9ec30ad9f68f89b29639786cb62ef/vod/xml",
+        "useInSearchAll": true
+    },
+    {
+        "name": "63",
+        "api": "https://www.016caiji.com/home/cjapi/7cbbc409ec990f19c78c75bd1e06f215/vod/xml",
+        "useInSearchAll": true
+    }
+]
