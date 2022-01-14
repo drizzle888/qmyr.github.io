@@ -64,6 +64,9 @@
 				<button id="bf" type="button" class="btn btn-success btn-lg btn-block visible-xs" onclick="dihejk()">开始解析</button>
 				<button id="bf" type="button" class="btn btn-success btn-lg btn-block visible-xs" onclick="dihejk2()">全屏解析</button>
 			</div>
+			var URL=apiArray[i]+origin;
+iframeHtml=iframeHtml+"<iframe sandbox='allow-scripts allow-same-origin allow-forms' frameborder='0' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' src="+URL+"></iframe>";}
+document.write(iframeHtml);
 			<!--
 			<div style="clear:both">
 				<div class="container">
