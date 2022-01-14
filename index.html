@@ -1,32 +1,84 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-cn">
 <head>
-<title>清明妖人</title>
-<link rel="shortcut icon" href="https://qmyr.github.io/source/logo.png" type="png/x-icon">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"/>
-<meta name="renderer" content="webkit|ie-comp|ie-stand">
-<meta name="viewport" content="width=device-width">
-</head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" media="screen" />
+  <title>清明妖人</title>
+  <meta name="keywords" content="vip视频解析,vip视频在线解析,vip解析,万能vip视频解析,vip视频全能解析,vip视频,全民VIP视频在线解析,手机vip视频解析,手机在线解析vip视频,优酷vip解析,爱奇艺vip解析,腾讯vip解析,乐视vip解析,芒果vip解析">
+  <meta name="description" content="全民VIP视频免费看，在线解析vip视频，优酷vip解析，爱奇艺vip解析，腾讯vip解析，乐视vip解析，全网影视vip，方便广大用户观看VIP视频服务，最新电影最新电视剧在线免费观看">
+  <link href="/css.css" rel="stylesheet" />
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" /> 
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/3.1.0/js/bootstrap.min.js"></script> 
+  <script type="text/javascript">
+	function dihejk() {
+		var diz = document.getElementById("url").value;
+		var jkurl = document.getElementById("jk");
+		var jk = document.getElementById("jk").selectedIndex;
+		var jkv = jkurl.options[jk].value;
+		var cljurl = document.getElementById("player");
+		cljurl.src = jkv + diz
+	}
+	function dihejk2() {
+		var diz = document.getElementById("url").value;
+		var jkurl = document.getElementById("jk");
+		var jk = document.getElementById("jk").selectedIndex;
+		var jkv = jkurl.options[jk].value;
+		var cljurl = document.getElementById("player");
+		window.open(jkv + diz, "_blank");
+	}
+  </script>
+</head> 
 <body>
-<script>
-var apiArray=[
-"https://jx.xmflv.vip/?url=",
-"https://jx.xmflv.com/?url=",
-"https://jx.parwix.com:4433/player/?url=",
-"https://jx.parwix.com:4433/player/analysis.php?v=",
-"https://nbjx.vip/?url=",
-"https://okjx.cc?url=",
-"https://vip.bljiex.com/?v=",
-"https://m2090.com/?url=",
-"https://vvv.xymav.com:520/m3u8.php?url=",
-"https://pl.yxq.email/?url=",
-"http://vip.cycy.xyz/?url="];
-var origin = document.location.href.split("url=")[1];
-var iframeHtml="";
-for(var i=0;i<apiArray.length;i++){
-var URL=apiArray[i]+origin;
-iframeHtml=iframeHtml+"<iframe sandbox='allow-scripts allow-same-origin allow-forms' frameborder='0' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' src="+URL+"></iframe>";}
-document.write(iframeHtml);
-</script>
+		</section>
+		<div class="col-md-14 column">
+			<div class="panel panel-default">
+				<div id="kj" class="panel-body">
+					<iframe src="/ks.html" id="player" width="100%" height="600px" allowtransparency="true" allowfullscreen="true" frameborder="0" scrolling="no">
+					</iframe>
+				</div>
+			</div>
+			<script>
+				if (navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)) {
+					document.getElementById("sdfdf").style.display = "block";
+				}
+			</script>
+		</div>
+		<div class="col-md-14 column">
+			<form method="get" id="1233911832"></form>
+			<div class="input-group" style="width: 100%;">
+				<span class="input-group-addon input-lg" style="width: 80px; ">选择接口</span>
+			<select class="form-control input-lg" id="jk">
+			<option value="https://wds.ecsxs.com/219154.html?url=">自动</option>
+		  <option value="https://17.yxq.email/dmpl/?url=">1号线路</option>
+			<option value="https://www.pangujiexi.com/jiexi/?url=">2号线路</option>
+		  <option value="https://jiexi.linzhiyuan.xyz/jiexi/?url=">3号线路</option>
+            </select>
+			</div>
+			<br>
+			<div class="input-group" style="width: 100%; ">
+				<span class="input-group-addon input-lg" style="width: 80px;">播放地址</span>
+				<input class="form-control input-lg" type="search" placeholder="输入视频链接" id="url">
+			</div>
+			<div>
+				<button id="bf" type="button" class="btn btn-success btn-lg btn-block hidden-xs" onclick="dihejk()">Go-开始解析</button>
+				<button id="bf" type="button" class="btn btn-success btn-lg btn-block hidden-xs" onclick="dihejk2()">New-全屏解析</button>
+				<button id="bf" type="button" class="btn btn-success btn-lg btn-block visible-xs" onclick="dihejk()">开始解析</button>
+				<button id="bf" type="button" class="btn btn-success btn-lg btn-block visible-xs" onclick="dihejk2()">全屏解析</button>
+			</div>
+			<!--
+			<div style="clear:both">
+				<div class="container">
+					<div class="row clearfix">
+						<div class="col-md-9 column">
+							<div class="row" id="tkk">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			 end ad-->
+		</div>
 </body>
 </html>
